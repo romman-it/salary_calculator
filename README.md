@@ -91,4 +91,4 @@ mvn test
 Автор
 
 [ romman_pavlovich ]
-[ Roman12S ] [ Roman Sh. Pavlovich ] [ https://github.com/Roman12S ] — GitHub
+[ Roman12S ] [ Roman Sh. Pavlovich ] ( [ https://github.com/romman-it/salary_calculator ] ) — GitHub
