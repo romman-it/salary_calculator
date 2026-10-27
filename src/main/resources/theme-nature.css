@@ -1,0 +1,149 @@
+/* ============ ОБЩЕЕ ============ */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #1b4332, #2d6a4f);
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.label {
+    -fx-text-fill: #f1faee;
+    -fx-font-size: 14px;
+}
+
+/* ============ ЗАГОЛОВКИ ============ */
+.title {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #fefae0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 6, 0, 0, 2);
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #a3b18a;
+}
+
+/* ============ ПОЛЯ ВВОДА ============ */
+.text-field {
+    -fx-background-color: #f1faee;
+    -fx-text-fill: #1b4332;
+    -fx-prompt-text-fill: #7f8c8d;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 12px;
+    -fx-background-radius: 8px;
+    -fx-border-color: transparent;
+    -fx-border-radius: 8px;
+}
+
+.text-field:focused {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e9c46a;
+    -fx-border-width: 2px;
+}
+
+/* ============ КНОПКИ ============ */
+.button {
+    -fx-background-color: #40916c;
+    -fx-text-fill: #f1faee;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #52b788;
+}
+
+.button:pressed {
+    -fx-background-color: #2d6a4f;
+}
+
+.button:disabled {
+    -fx-opacity: 0.5;
+}
+
+.button-primary {
+    -fx-background-color: #e9c46a;
+    -fx-text-fill: #1b4332;
+}
+
+.button-primary:hover {
+    -fx-background-color: #f4a261;
+}
+
+.button-ghost {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f1faee;
+    -fx-border-color: #f1faee;
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.button-ghost:hover {
+    -fx-background-color: rgba(241, 250, 238, 0.15);
+}
+
+.button-danger {
+    -fx-background-color: #bc4749;
+}
+
+.button-danger:hover {
+    -fx-background-color: #a33e40;
+}
+
+/* ============ ТАБЛИЦА ============ */
+.table-view {
+    -fx-background-color: rgba(241, 250, 238, 0.08);
+    -fx-background-radius: 8px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #2d6a4f;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #fefae0;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(241, 250, 238, 0.04);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #52b788;
+}
+
+.table-cell {
+    -fx-text-fill: #f1faee;
+}
+
+/* ============ РЕЗУЛЬТАТЫ ============ */
+.result-success {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e9c46a;
+}
+
+.result-total {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4a261;
+    -fx-padding: 8px;
+}
+
+/* ============ COMBOBOX ============ */
+.combo-box {
+    -fx-background-color: #f1faee;
+    -fx-background-radius: 6px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #1b4332;
+}

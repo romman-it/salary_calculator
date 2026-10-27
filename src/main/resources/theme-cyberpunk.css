@@ -1,0 +1,173 @@
+/* ============ ОБЩЕЕ ============ */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #0a0a1a, #8B0000);
+    -fx-font-family: "Consolas", "Courier New", monospace;
+}
+
+.label {
+    -fx-text-fill: #c0c0d0;
+    -fx-font-size: 14px;
+}
+
+/* ============ ЗАГОЛОВКИ ============ */
+.title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00d4ff;
+    -fx-effect: dropshadow(gaussian, #00d4ff, 20, 0, 0, 0);
+}
+
+.subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #ff2d75;
+    -fx-effect: dropshadow(gaussian, #ff2d75, 8, 0, 0, 0);
+}
+
+/* ============ ПОЛЯ ВВОДА ============ */
+.text-field {
+    -fx-background-color: #1a1a2e;
+    -fx-text-fill: #00d4ff;
+    -fx-prompt-text-fill: #4a4a6a;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 12px;
+    -fx-background-radius: 4px;
+    -fx-border-color: #00d4ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.text-field:focused {
+    -fx-border-color: #ff2d75;
+    -fx-effect: dropshadow(gaussian, #ff2d75, 10, 0, 0, 0);
+}
+
+/* ============ КНОПКИ ============ */
+.button {
+    -fx-background-color: #1a1a2e;
+    -fx-text-fill: #00d4ff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4px;
+    -fx-border-color: #00d4ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #00d4ff;
+    -fx-text-fill: #0a0a1a;
+    -fx-effect: dropshadow(gaussian, #00d4ff, 15, 0, 0, 0);
+}
+
+.button:pressed {
+    -fx-background-color: #0099cc;
+}
+
+.button:disabled {
+    -fx-opacity: 0.3;
+}
+
+.button-primary {
+    -fx-background-color: #ff2d75;
+    -fx-text-fill: white;
+    -fx-border-color: #ff2d75;
+    -fx-effect: dropshadow(gaussian, #ff2d75, 12, 0, 0, 0);
+}
+
+.button-primary:hover {
+    -fx-background-color: #ff0050;
+    -fx-effect: dropshadow(gaussian, #ff0050, 25, 0, 0, 0);
+}
+
+.button-ghost {
+    -fx-background-color: transparent;
+    -fx-text-fill: #00d4ff;
+    -fx-border-color: #00d4ff;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+.button-ghost:hover {
+    -fx-background-color: rgba(0, 212, 255, 0.15);
+    -fx-effect: dropshadow(gaussian, #00d4ff, 15, 0, 0, 0);
+}
+
+.button-danger {
+    -fx-background-color: #ff0040;
+    -fx-text-fill: white;
+    -fx-border-color: #ff0040;
+    -fx-effect: dropshadow(gaussian, #ff0040, 12, 0, 0, 0);
+}
+
+.button-danger:hover {
+    -fx-background-color: #cc0030;
+    -fx-effect: dropshadow(gaussian, #ff0040, 25, 0, 0, 0);
+}
+
+/* ============ ТАБЛИЦА ============ */
+.table-view {
+    -fx-background-color: #1a1a2e;
+    -fx-background-radius: 4px;
+    -fx-border-color: #00d4ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #0a0a1a;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #ff2d75;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent rgba(0,212,255,0.1) transparent;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(0, 212, 255, 0.03);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(255, 45, 117, 0.3);
+}
+
+.table-cell {
+    -fx-text-fill: #00d4ff;
+}
+
+/* ============ РЕЗУЛЬТАТЫ ============ */
+.result-success {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00ff41;
+    -fx-effect: dropshadow(gaussian, #00ff41, 10, 0, 0, 0);
+}
+
+.result-total {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff2d75;
+    -fx-padding: 8px;
+    -fx-effect: dropshadow(gaussian, #ff2d75, 15, 0, 0, 0);
+}
+
+/* ============ COMBOBOX ============ */
+.combo-box {
+    -fx-background-color: #1a1a2e;
+    -fx-border-color: #00d4ff;
+    -fx-border-width: 1px;
+    -fx-background-radius: 4px;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #00d4ff;
+    -fx-background-color: #1a1a2e;
+}
