@@ -1,5 +1,5 @@
 # Salary Calculator
-![Build](https://github.com/romman-it/salary_calculator/actions/workflows/build.yml/badge.svg)
+
 Десктопное приложение на JavaFX для расчёта и учёта зарплаты экспедитора
 по двум направлениям — **город Минск** и **регион** — с разными тарифными сетками.
 
