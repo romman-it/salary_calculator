@@ -92,3 +92,7 @@ mvn test
 
 [ romman_pavlovich ]
 [ Roman12S ] [ Roman Sh. Pavlovich ] ( [ https://github.com/romman-it/salary_calculator ] ) — GitHub
+Скачать готовое приложение для Windows:
+https://github.com/romman-it/salary_calculator/releases/tag/v3.1.1
+Прямая ссылка для скачивания:
+https://github.com/romman-it/salary_calculator/releases/download/v3.1.1/SalaryCalculator-win.zip
